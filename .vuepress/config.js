@@ -2,7 +2,9 @@ module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
     themeConfig: {
-        
+
+        lastUpdated: 'Last Updated', // string | boolean
+
         // navbar: false,
         nav: 
         [

@@ -1,1 +1,5 @@
-# Hello Vue
+---
+pageClass: main-container
+---
+
+# Hello VuePress
