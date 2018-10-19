@@ -25,16 +25,15 @@ module.exports = {
         // sidebar: false,
         sidebar: {
             '/': [
-                ['/', 'First'],
-                ['/', 'Second'],
-                ['/', 'Third'],
+                ['/', 'Home'],
+                ['/guide', 'Guide'],
                 {
-                    title: 'Group 2',
+                    title: 'Detail',
                     collapsable: false,
                     children: [
-                        ['/', 'First'],
-                        ['/', 'Second'],
-                        ['/', 'Third'],
+                        ['/detail/detail', 'Detail_1'],
+                        ['/detail/detail_2', 'Detail_2'],
+                        ['/detail/detail_3', 'Detail_3'],
                     ]
                 }
             ]
