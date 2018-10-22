@@ -2,3 +2,38 @@
 .main-container #hello-vuepress {
     color: #a64452;
 }
+.sidebar {
+    width: 16.4rem
+}
+a.sidebar-link {
+    position: relative;
+    border-left: none;
+}
+a.sidebar-link:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #596e79;
+    content: '';
+}
+a.sidebar-link.active:before {
+    width: 6px;
+}
+a.sidebar-link:hover:before {
+    width: 100%;
+    z-index: -1;
+    -webkit-transition: width .3s ease-in;
+    transition: width .3s ease-in;
+}
+
+.sidebar-sub-headers a.sidebar-link.active:before {
+    width: 0;
+}
+.sidebar-sub-headers a.sidebar-link:hover:before {
+    content: none;
+}
+.sidebar-sub-headers .sidebar-link:hover {
+    text-decoration: underline;
+}
