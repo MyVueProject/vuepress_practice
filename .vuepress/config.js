@@ -4,6 +4,7 @@ module.exports = {
     themeConfig: {
 
         lastUpdated: 'Last Updated', // string | boolean
+        displayAllHeaders: true,
 
         // navbar: false,
         nav: 
