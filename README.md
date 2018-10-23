@@ -52,3 +52,9 @@ export default {
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+## Built-In Components
+
+Hello World <Badge text="beta" type="warn"/> <Badge text="0.10.1+"/>
+
+<OutboundLink/>
